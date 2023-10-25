@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(./back.webp);
+    background-size: cover;
+    gap: 30px;
+}
+.slides {
+    width: 500px;
+    height: 300px;
+    /* background: pink; */
+    /* border: solid red 2px; */
+    overflow: hidden;
+    border-radius: 20px;
+}
+.images {
+    width: 700%;
+    display: flex;
+    /* background-color: red; */
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+button:hover {
+    background: grey;
+    opacity: 0.8;
+    color: red;
+    border: solid 1px black;
+}
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 1px red;
+}
+.box {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.box1 {
+    background: url(./penny.webp);
+    background-size: cover;
+}
+.box2 {
+    background: url(./joker.jpeg);
+    background-size: cover;
+}
+.box3 {
+    background: url(./halloween.png);
+    background-size: cover;
+}
+.box4 {
+    background: url(./imgs.avif);
+    background-size: cover;
+}
+.box5 {
+    background: url(./I-Want-You-to-Go-Away.jpg);
+    background-size: cover;
+}
+/* .box6 {
+    background: url(./dodge.jpg);
+    background-size: cover;
+}
+.box7 {
+    background: url(./megan.jpg);
+    background-size: cover;
+} */
